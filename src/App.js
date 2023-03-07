@@ -15,11 +15,11 @@ function App() {
       <Nav />
       <Routes>
         <Route path='/littlelemonrestaurant' element = {<LandingPage/> }/>
-        <Route path='littlelemonrestaurant/about' element = {<About/> }/>
-        <Route path='littlelemonrestaurant/menu' element = {<Menu/> }/>
-        <Route path='littlelemonrestaurant/booking' element = {<BookingPage /> } />
-        <Route path='littlelemonrestaurant/order-online' element = {<OrderOnline/> }/>
-        <Route path='littlelemonrestaurant/login' element = {<Login/> }/>
+        <Route path='/littlelemonrestaurant/about' element = {<About/> }/>
+        <Route path='/littlelemonrestaurant/menu' element = {<Menu/> }/>
+        <Route path='/littlelemonrestaurant/booking' element = {<BookingPage /> } />
+        <Route path='/littlelemonrestaurant/order-online' element = {<OrderOnline/> }/>
+        <Route path='/littlelemonrestaurant/login' element = {<Login/> }/>
       </Routes>
       <Footer />
     </>
